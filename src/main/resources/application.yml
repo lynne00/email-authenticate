@@ -1,0 +1,20 @@
+server:
+  port: 8099
+spring:
+  redis:
+    host: localhost # redis地址
+    port: 6379
+    database: 0
+    password:  # 密码
+
+  mail:
+    host: smtp.qq.com # smtp地址
+    username:  # 邮箱账号
+    password:  # 邮箱授权码
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
